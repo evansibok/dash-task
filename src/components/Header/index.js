@@ -1,9 +1,9 @@
 import React from 'react';
+import { IoMdArrowDropdown } from "react-icons/io";
 
 import './header.css';
 
 import PivonyLogo from '../../assets/pivony.png';
-
 
 const Header = () => {
   return (
@@ -14,7 +14,17 @@ const Header = () => {
       </div>
 
       <div className='header-right'>
-        <h1>User Profile</h1>
+        <ol>
+          <li>Home</li>
+          <li>
+            Help
+            <IoMdArrowDropdown />
+          </li>
+          <li>
+            Demo Pivony
+            <IoMdArrowDropdown />
+          </li>
+        </ol>
       </div>
     </div>
   )

@@ -11,7 +11,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 130px;
+  width: 110px;
 }
 
 .header-left img {
@@ -31,4 +31,23 @@
 
 .header-right h1 {
   color: #fff;
+}
+
+.header-right ol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header-right ol > li {
+  margin: 10px 20px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.9rem;
+}
+
+.header-right ol > li:last-child {
+  margin-right: 0px;
 }
