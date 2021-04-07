@@ -1,14 +1,18 @@
 import React from 'react';
+
 import './header.css';
 
-import InnoloftLogo from '../../assets/innoloft-no-white-space.png'
+import PivonyLogo from '../../assets/pivony.png';
+
 
 const Header = () => {
   return (
     <div className='header-con'>
-      <div className='logo'>
-        <img src={InnoloftLogo} alt='innoloft-logo' />
+      <div className="header-left">
+        <img src={PivonyLogo} alt='pivony-logo' />
+        <p>AI Driven Insights</p>
       </div>
+
       <div className='header-right'>
         <h1>User Profile</h1>
       </div>

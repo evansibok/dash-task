@@ -1,23 +1,33 @@
 .header-con {
-  background-color: #262E70;
-  height: 50px;
+  background-color: #2C1150;
+  height: 60px;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px 30px;
-};
-
-.logo {
 }
 
-.logo img {
-  width: 120px;
+.header-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 130px;
 }
 
-.logo img:hover {
+.header-left img {
+  width: 100%;
+}
+
+.header-left img:hover {
   cursor: pointer;
 }
 
+.header-left p {
+  font-style: italic;
+  font-size: 0.7rem;
+  color: #fff;
+  font-weight: lighter;
+}
 
 .header-right h1 {
   color: #fff;
