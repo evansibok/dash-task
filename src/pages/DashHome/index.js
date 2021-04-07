@@ -3,12 +3,8 @@ import { IoMdAdd } from 'react-icons/io';
 import { FiThumbsDown, FiThumbsUp } from 'react-icons/fi'
 import './home.css';
 
-import MiroLogo from '../../assets/miro.png'
+import MiroLogo from '../../assets/miro.png';
 import Layout from '../../components/Layout';
-
-// const cardColors = ['#F3F3F8', '#A8C9F5', '#CD81CB', '#5DD9FA', '#FF5C88', '#1C1C1C', '#FFD02F', '#FFC8E1'];
-
-// const getColors = (colorList) => (colorList[Math.floor(Math.random() * colorList.length)])
 
 
 const DashHome = () => {
