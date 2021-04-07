@@ -1,9 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { IoMdHome, IoIosAlbums, IoIosHelpCircleOutline, IoMdSettings, IoIosLogOut } from "react-icons/io";
-
-
 import './sidebar.css';
+
+import Avatar from '../../assets/avatar.png';
 
 
 const SideBar = () => {
@@ -11,7 +11,7 @@ const SideBar = () => {
     <div className='side-con'>
       <div className='user'>
         <div className='avatar'>
-
+          <img src={Avatar} alt='avatar' />
         </div>
         <div className='details'>
           <p>Benjamin Bright</p>

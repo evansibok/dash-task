@@ -3,13 +3,13 @@ import { IoMdArrowDropdown } from "react-icons/io";
 
 import './header.css';
 
-import PivonyLogo from '../../assets/pivony.png';
+import PrivonyLogo from '../../assets/privony.png';
 
 const Header = () => {
   return (
     <div className='header-con'>
       <div className="header-left">
-        <img src={PivonyLogo} alt='pivony-logo' />
+        <img src={PrivonyLogo} alt='privony-logo' />
         <p>AI Driven Insights</p>
       </div>
 
@@ -21,7 +21,7 @@ const Header = () => {
             <IoMdArrowDropdown />
           </li>
           <li>
-            Demo Pivony
+            Demo Privony
             <IoMdArrowDropdown />
           </li>
         </ol>

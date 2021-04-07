@@ -1,8 +1,146 @@
 .home-con {
   background-color: #170031;
   height: 100%;
+  padding: 50px 40px;
+  margin-bottom: 40px;
 }
 
-.home-con h1 {
+.top-home {
+  display: flex;
   color: #fff;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.top-left h3 {
+  font-weight: bold;
+  margin-bottom: 15px;
+  font-size: 1.4rem;
+}
+
+.top-left p {
+  font-weight: lighter;
+  font-style: italic;
+}
+
+.top-home button {
+  background-color: #7900B5;
+  width: 170px;
+  height: 45px;
+  padding: 10px 10px;
+  border-radius: 30px;
+  color: #fff;
+  border: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  font-size: 0.8rem;
+  margin-right: 20px;
+}
+
+.top-home button svg {
+  font-size: 1.2rem;
+  margin-left: 10px;
+  font-weight: bold;
+}
+
+.bottom-home {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 185px;
+  height: 200px;
+  margin: 5px;
+  margin-top: 25px;
+  border-radius: 10px;
+  padding-top: 25px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.card-head .img-div {
+  width: 30px;
+  height: 30px;
+  background: black;
+  margin-bottom: 15px;
+}
+
+.card-head .img-div img {
+  width: 100%;
+}
+
+.card-head h4 {
+  font-size: 0.9rem;
+  font-weight: bold;
+  line-height: normal;
+  text-transform: capitalize;
+  margin-bottom: 15px;
+  color: rgba(0, 0, 0, 1);
+}
+
+.card-content p {
+  font-size: 0.8rem;
+  line-height: normal;
+  color: rgba(0, 0, 0, 0.6);
+}
+
+.card-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+.card-footer svg {
+  font-size: 1.4rem;
+}
+
+.card.one {
+  background-color: #F3F3F8;
+}
+
+.card.two {
+  background-color: #A8C9F5;
+}
+
+.card.three {
+  background-color: #CD81CB;
+}
+
+.card.four {
+  background-color: #5DD9FA;
+}
+
+.card.five {
+  background-color: #FF5C88;
+}
+
+.card.six {
+  background-color: #1C1C1C;
+  color: #F3F3F8;
+}
+
+.card.six h4 {
+  color: #F3F3F8;
+}
+
+.card.six p {
+  color: #F3F3F8;
+}
+
+.card.seven {
+  background-color: #FFD02F;
+}
+
+.card.eight {
+  background-color: #FFC8E1;
 }
